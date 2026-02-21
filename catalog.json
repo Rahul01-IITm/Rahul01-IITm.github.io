@@ -1,3 +1,29 @@
-git add catalog.json
-git commit -m "Add StaticShop catalog.json"
-git push origin main
+{
+  "metadata": {
+    "email": "23f1001252@ds.study.iitm.ac.in",
+    "version": "a3e43f10"
+  },
+  "products": [
+    { "id": 1, "name": "Wireless Mouse", "category": "electronics", "price": 25.99, "stock": 50, "rating": 4.5 },
+    { "id": 2, "name": "Bluetooth Keyboard", "category": "electronics", "price": 45.00, "stock": 30, "rating": 4.3 },
+    { "id": 3, "name": "USB-C Charger", "category": "electronics", "price": 19.99, "stock": 100, "rating": 4.6 },
+    { "id": 4, "name": "Gaming Headset", "category": "electronics", "price": 59.99, "stock": 25, "rating": 4.4 },
+    { "id": 5, "name": "Smart Watch", "category": "electronics", "price": 199.99, "stock": 15, "rating": 4.7 },
+    { "id": 6, "name": "Office Chair", "category": "furniture", "price": 150.00, "stock": 10, "rating": 4.2 },
+    { "id": 7, "name": "Standing Desk", "category": "furniture", "price": 299.99, "stock": 5, "rating": 4.5 },
+    { "id": 8, "name": "LED Desk Lamp", "category": "furniture", "price": 35.00, "stock": 40, "rating": 4.3 },
+    { "id": 9, "name": "Notebook Pack", "category": "stationery", "price": 12.50, "stock": 200, "rating": 4.1 },
+    { "id": 10, "name": "Ballpoint Pens", "category": "stationery", "price": 8.99, "stock": 300, "rating": 4.0 },
+    { "id": 11, "name": "Backpack", "category": "accessories", "price": 49.99, "stock": 60, "rating": 4.4 },
+    { "id": 12, "name": "Travel Mug", "category": "accessories", "price": 14.99, "stock": 120, "rating": 4.6 },
+    { "id": 13, "name": "Power Bank", "category": "electronics", "price": 29.99, "stock": 80, "rating": 4.5 },
+    { "id": 14, "name": "HDMI Cable", "category": "electronics", "price": 9.99, "stock": 150, "rating": 4.3 },
+    { "id": 15, "name": "External Hard Drive", "category": "electronics", "price": 89.99, "stock": 20, "rating": 4.6 }
+  ],
+  "aggregations": {
+    "clothing": {
+      "count": 0,
+      "inventoryValue": 0.00
+    }
+  }
+}
